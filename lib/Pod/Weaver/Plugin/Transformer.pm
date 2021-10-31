@@ -15,7 +15,7 @@ use experimental qw(postderef postderef_qq); # This experiment gets mainlined.
 use namespace::autoclean;
 
 use Module::Runtime qw(use_module);
-use List::MoreUtils qw(part);
+use List::SomeUtils qw(part);
 use String::RewritePrefix;
 
 =head1 OVERVIEW
